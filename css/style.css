@@ -1,10 +1,118 @@
 
+html {
+    color: #444;
+}
 
 #nav-menu {
-	background-color: #003366;
+	background-color: #637B6E;
 	color:#999999;
 	min-height: 100vh;}
 	
 #wrapper {
-	background-color: #666666;
+	background-color: #f8f8f8;
+	min-height: 100vh;
+	padding: 0;}
+	
+#home {
+	background-color: #f8f8f8;
+	background-image: url(../images/home_bg.jpg);
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+	padding: 0;}
+	
+#about {
+	background-color: #ffffff;
+	min-height: 100vh;}
+	
+#about>.row {
+	margin: 0;}
+	
+#about .content{
+	background-color: #ffffff;
+	min-height: 100vh;}
+	
+#about .spacebg{
+	background-color: #ffffff;
+	background-image: url(../images/about_bg.jpg);
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;}
+
+#works {
+	background-color: #f2f2f2;
+	min-height: 100vh;}
+	
+#works>.row {
+	margin: 0;}
+	
+#works .content{
+	background-color: #f2f2f2;
+	min-height: 100vh;}
+	
+#works .spacebg{
+	background-color: #f2f2f2;
+	background-image: url(../images/works_bg.jpg);
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;}
+
+#experience {
+	background-color: #1c212a;
+	min-height: 100vh;}
+	
+#experience>.row {
+	margin: 0;}
+	
+#experience .content{
+	background-color: #1c212a;
+	min-height: 100vh;}
+	
+#experience .spacebg{
+	background-color: #1c212a;
+	background-image: url(../images/experience_bg.jpg);
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;}
+
+#skills {
+	background-color: #ffffff;
+	min-height: 100vh;}
+	
+#skills>.row {
+	margin: 0;}
+	
+#skills .content{
+	background-color: #ffffff;
+	min-height: 100vh;}
+	
+#skills .spacebg{
+	background-color: #ffffff;
+	background-image: url(../images/skills_bg.jpg);
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;}
+
+#contact {
+	background-color: #f2f2f2;
+	min-height: 100vh;}
+	
+#contact>.row {
+	margin: 0;}
+	
+#contact .content{
+	background-color: #f2f2f2;
+	min-height: 100vh;}
+	
+#contact .spacebg{
+	background-color: #f2f2f2;
+	background-image: url(../images/contact_bg.jpg);
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: cover;
 	min-height: 100vh;}
