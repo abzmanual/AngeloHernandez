@@ -22,7 +22,6 @@ function getActiveSection(){
   skillsPos = $('#skills').offset().top - $(window).scrollTop(),
   contactPos = $('#contact').offset().top - $(window).scrollTop();   
 
-  $('.worksPos').html(worksPos);
   if(homePos < 100){
   	removeAllActiveClass();
   	$('li.home').addClass('active');
